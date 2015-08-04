@@ -116,9 +116,9 @@
 
 	var ReactOverlays = _interopRequireWildcard(_reactOverlays);
 
-	__webpack_require__(307);
+	__webpack_require__(306);
 
-	var _injectCss = __webpack_require__(311);
+	var _injectCss = __webpack_require__(310);
 
 	var _injectCss2 = _interopRequireDefault(_injectCss);
 
@@ -153,141 +153,198 @@
 
 	    return _react2['default'].createElement(
 	      'div',
-	      { className: 'app' },
+	      { className: 'app row' },
 	      _react2['default'].createElement(
-	        'section',
-	        null,
+	        'article',
+	        { className: 'side-panel col-md-2' },
 	        _react2['default'].createElement(
-	          'h2',
-	          { className: 'page-header' },
+	          'ul',
+	          { className: 'list-unstyled' },
 	          _react2['default'].createElement(
-	            Anchor,
+	            'li',
 	            null,
-	            'Transition'
+	            _react2['default'].createElement(
+	              'a',
+	              { href: '#transition' },
+	              'Transition'
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'li',
+	            null,
+	            _react2['default'].createElement(
+	              'a',
+	              { href: '#portals' },
+	              'Portals'
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'li',
+	            null,
+	            _react2['default'].createElement(
+	              'a',
+	              { href: '#modals' },
+	              'Modals'
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'li',
+	            null,
+	            _react2['default'].createElement(
+	              'a',
+	              { href: '#position' },
+	              'Position'
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'li',
+	            null,
+	            _react2['default'].createElement(
+	              'a',
+	              { href: '#overlay' },
+	              'Overlay'
+	            )
 	          )
-	        ),
-	        _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysTransition2['default'].Transition.descHtml } }),
-	        _react2['default'].createElement(_componentPlayground2['default'], {
-	          className: 'overlay-example',
-	          lineNumbers: false,
-	          lang: "js",
-	          theme: "neo",
-	          scope: scope,
-	          codeText: _webpackExampleLoaderTransition2['default'],
-	          collapsableCode: true
-	        }),
-	        _react2['default'].createElement(_PropTable2['default'], {
-	          component: 'Transition',
-	          metadata: _webpackMetadataLoaderReactOverlaysTransition2['default']
-	        })
+	        )
 	      ),
 	      _react2['default'].createElement(
-	        'section',
-	        null,
+	        'main',
+	        { className: 'col-md-10' },
 	        _react2['default'].createElement(
-	          'h2',
-	          { className: 'page-header' },
+	          'section',
+	          null,
 	          _react2['default'].createElement(
-	            Anchor,
-	            null,
-	            'Portals'
-	          )
+	            'h2',
+	            { className: 'page-header' },
+	            _react2['default'].createElement(
+	              Anchor,
+	              null,
+	              'Transition'
+	            )
+	          ),
+	          _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysTransition2['default'].Transition.descHtml } }),
+	          _react2['default'].createElement(_componentPlayground2['default'], {
+	            className: 'overlay-example',
+	            lineNumbers: false,
+	            lang: "js",
+	            theme: "neo",
+	            scope: scope,
+	            codeText: _webpackExampleLoaderTransition2['default'],
+	            collapsableCode: true
+	          }),
+	          _react2['default'].createElement(_PropTable2['default'], {
+	            component: 'Transition',
+	            metadata: _webpackMetadataLoaderReactOverlaysTransition2['default']
+	          })
 	        ),
-	        _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysPortal2['default'].Portal.descHtml } }),
-	        _react2['default'].createElement(_componentPlayground2['default'], {
-	          className: 'overlay-example',
-	          lineNumbers: false,
-	          lang: "js",
-	          theme: "neo",
-	          scope: scope,
-	          codeText: _webpackExampleLoaderPortal2['default'],
-	          collapsableCode: true
-	        }),
-	        _react2['default'].createElement(_PropTable2['default'], {
-	          component: 'Portal',
-	          metadata: _webpackMetadataLoaderReactOverlaysPortal2['default']
-	        })
-	      ),
-	      _react2['default'].createElement(
-	        'section',
-	        null,
 	        _react2['default'].createElement(
-	          'h2',
-	          { className: 'page-header' },
+	          'section',
+	          null,
 	          _react2['default'].createElement(
-	            Anchor,
-	            null,
-	            'Modals'
-	          )
+	            'h2',
+	            { className: 'page-header' },
+	            _react2['default'].createElement(
+	              Anchor,
+	              null,
+	              'Portals'
+	            )
+	          ),
+	          _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysPortal2['default'].Portal.descHtml } }),
+	          _react2['default'].createElement(_componentPlayground2['default'], {
+	            className: 'overlay-example',
+	            lineNumbers: false,
+	            lang: "js",
+	            theme: "neo",
+	            scope: scope,
+	            codeText: _webpackExampleLoaderPortal2['default'],
+	            collapsableCode: true
+	          }),
+	          _react2['default'].createElement(_PropTable2['default'], {
+	            component: 'Portal',
+	            metadata: _webpackMetadataLoaderReactOverlaysPortal2['default']
+	          })
 	        ),
-	        _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysModal2['default'].Modal.descHtml } }),
-	        _react2['default'].createElement(_componentPlayground2['default'], {
-	          className: 'overlay-example',
-	          lineNumbers: false,
-	          lang: "js",
-	          theme: "neo",
-	          scope: scope,
-	          codeText: _webpackExampleLoaderModal2['default'],
-	          collapsableCode: true
-	        }),
-	        _react2['default'].createElement(_PropTable2['default'], {
-	          component: 'Modal',
-	          metadata: _webpackMetadataLoaderReactOverlaysModal2['default']
-	        })
-	      ),
-	      _react2['default'].createElement(
-	        'section',
-	        null,
 	        _react2['default'].createElement(
-	          'h2',
-	          { className: 'page-header' },
+	          'section',
+	          null,
 	          _react2['default'].createElement(
-	            Anchor,
-	            null,
-	            'Position'
-	          )
+	            'h2',
+	            { className: 'page-header' },
+	            _react2['default'].createElement(
+	              Anchor,
+	              null,
+	              'Modals'
+	            )
+	          ),
+	          _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysModal2['default'].Modal.descHtml } }),
+	          _react2['default'].createElement(_componentPlayground2['default'], {
+	            className: 'overlay-example',
+	            lineNumbers: false,
+	            lang: "js",
+	            theme: "neo",
+	            scope: scope,
+	            codeText: _webpackExampleLoaderModal2['default'],
+	            collapsableCode: true
+	          }),
+	          _react2['default'].createElement(_PropTable2['default'], {
+	            component: 'Modal',
+	            metadata: _webpackMetadataLoaderReactOverlaysModal2['default']
+	          })
 	        ),
-	        _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysPosition2['default'].Position.descHtml } }),
-	        _react2['default'].createElement(_componentPlayground2['default'], {
-	          className: 'overlay-example',
-	          lineNumbers: false,
-	          lang: "js",
-	          theme: "neo",
-	          scope: scope,
-	          codeText: _webpackExampleLoaderPosition2['default'],
-	          collapsableCode: true
-	        }),
-	        _react2['default'].createElement(_PropTable2['default'], {
-	          component: 'Position',
-	          metadata: _webpackMetadataLoaderReactOverlaysPosition2['default']
-	        })
-	      ),
-	      _react2['default'].createElement(
-	        'section',
-	        null,
 	        _react2['default'].createElement(
-	          'h2',
-	          { className: 'page-header' },
+	          'section',
+	          null,
 	          _react2['default'].createElement(
-	            Anchor,
-	            null,
-	            'Overlay'
-	          )
+	            'h2',
+	            { className: 'page-header' },
+	            _react2['default'].createElement(
+	              Anchor,
+	              null,
+	              'Position'
+	            )
+	          ),
+	          _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysPosition2['default'].Position.descHtml } }),
+	          _react2['default'].createElement(_componentPlayground2['default'], {
+	            className: 'overlay-example',
+	            lineNumbers: false,
+	            lang: "js",
+	            theme: "neo",
+	            scope: scope,
+	            codeText: _webpackExampleLoaderPosition2['default'],
+	            collapsableCode: true
+	          }),
+	          _react2['default'].createElement(_PropTable2['default'], {
+	            component: 'Position',
+	            metadata: _webpackMetadataLoaderReactOverlaysPosition2['default']
+	          })
 	        ),
-	        _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysOverlay2['default'].Overlay.descHtml } }),
-	        _react2['default'].createElement(_componentPlayground2['default'], {
-	          className: 'overlay-example',
-	          lineNumbers: false,
-	          lang: "js",
-	          theme: "neo",
-	          scope: scope,
-	          codeText: _webpackExampleLoaderOverlay2['default'],
-	          collapsableCode: true
-	        }),
-	        _react2['default'].createElement(_PropTable2['default'], {
-	          component: 'Overlay',
-	          metadata: _webpackMetadataLoaderReactOverlaysOverlay2['default']
-	        })
+	        _react2['default'].createElement(
+	          'section',
+	          null,
+	          _react2['default'].createElement(
+	            'h2',
+	            { className: 'page-header' },
+	            _react2['default'].createElement(
+	              Anchor,
+	              null,
+	              'Overlay'
+	            )
+	          ),
+	          _react2['default'].createElement('p', { dangerouslySetInnerHTML: { __html: _webpackMetadataLoaderReactOverlaysOverlay2['default'].Overlay.descHtml } }),
+	          _react2['default'].createElement(_componentPlayground2['default'], {
+	            className: 'overlay-example',
+	            lineNumbers: false,
+	            lang: "js",
+	            theme: "neo",
+	            scope: scope,
+	            codeText: _webpackExampleLoaderOverlay2['default'],
+	            collapsableCode: true
+	          }),
+	          _react2['default'].createElement(_PropTable2['default'], {
+	            component: 'Overlay',
+	            metadata: _webpackMetadataLoaderReactOverlaysOverlay2['default']
+	          })
+	        )
 	      )
 	    );
 	  }
@@ -97204,7 +97261,7 @@
 /* 257 */
 /***/ function(module, exports) {
 
-	module.exports = "const ModalStyle = {\r\n  position: 'fixed',\r\n  zIndex: 1040,\r\n  top: 0, bottom: 0, left: 0, right: 0\r\n};\r\n\r\nconst BackdropStyle = {\r\n  ...ModalStyle,\r\n  zIndex: 'auto',\r\n  backgroundColor: '#000',\r\n  opacity: 0.5\r\n};\r\n\r\nconst DialogStyle = {\r\n  position: 'absolute',\r\n  width: 400,\r\n  top: '50%', left: '50%',\r\n  transform: 'translate(-50%, -50%)',\r\n  border: '1px solid #e5e5e5',\r\n  backgroundColor: 'white',\r\n  boxShadow: '0 5px 15px rgba(0,0,0,.5)',\r\n  padding: 20\r\n};\r\n\r\n\r\nconst ModalExample = React.createClass({\r\n\r\n  getInitialState(){\r\n    return { showModal: false };\r\n  },\r\n\r\n  close(){\r\n    this.setState({ showModal: false });\r\n  },\r\n\r\n  open(){\r\n    this.setState({ showModal: true });\r\n  },\r\n\r\n  render() {\r\n\r\n    return (\r\n      <div className='modal-example'>\r\n        <Button onClick={this.open}>\r\n          Open Modal\r\n        </Button>\r\n        <p>Click to get the full Modal experience!</p>\r\n\r\n        <Modal\r\n          style={ModalStyle}\r\n          backdropStyle={BackdropStyle}\r\n          show={this.state.showModal}\r\n          onHide={this.close}\r\n        >\r\n          <div style={DialogStyle}>\r\n            <h4>Text in a modal</h4>\r\n            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>\r\n          </div>\r\n        </Modal>\r\n      </div>\r\n    );\r\n  }\r\n});\r\n\r\nReact.render(<ModalExample/>, mountNode);"
+	module.exports = "let rand = ()=> (Math.floor(Math.random() * 20) - 10);\r\n\r\nconst modalStyle = {\r\n  position: 'fixed',\r\n  zIndex: 1040,\r\n  top: 0, bottom: 0, left: 0, right: 0\r\n};\r\n\r\nconst backdropStyle = {\r\n  ...modalStyle,\r\n  zIndex: 'auto',\r\n  backgroundColor: '#000',\r\n  opacity: 0.5\r\n};\r\n\r\nconst dialogStyle = function() {\r\n  // we use some psuedo random coords so modals\r\n  // don't sit right on top of each other.\r\n  let top = 50 + rand();\r\n  let left = 50 + rand();\r\n\r\n  return {\r\n    position: 'absolute',\r\n    width: 400,\r\n    top: top + '%', left: left + '%',\r\n    transform: `translate(-${top}%, -${left}%)`,\r\n    border: '1px solid #e5e5e5',\r\n    backgroundColor: 'white',\r\n    boxShadow: '0 5px 15px rgba(0,0,0,.5)',\r\n    padding: 20\r\n  };\r\n};\r\n\r\n\r\nconst ModalExample = React.createClass({\r\n\r\n  getInitialState(){\r\n    return { showModal: false };\r\n  },\r\n\r\n  render() {\r\n\r\n    return (\r\n      <div className='modal-example'>\r\n        <Button onClick={this.open}>\r\n          Open Modal\r\n        </Button>\r\n        <p>Click to get the full Modal experience!</p>\r\n\r\n        <Modal\r\n          style={modalStyle}\r\n          backdropStyle={backdropStyle}\r\n          show={this.state.showModal}\r\n          onHide={this.close}\r\n        >\r\n          <div style={dialogStyle()}>\r\n            <h4>Text in a modal</h4>\r\n            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>\r\n            <ModalExample/>\r\n          </div>\r\n        </Modal>\r\n      </div>\r\n    );\r\n  },\r\n\r\n  close(){\r\n    this.setState({ showModal: false });\r\n  },\r\n\r\n  open(){\r\n    this.setState({ showModal: true });\r\n  }\r\n});\r\n\r\nReact.render(<ModalExample/>, mountNode);"
 
 /***/ },
 /* 258 */
@@ -97246,13 +97303,13 @@
 /* 264 */
 /***/ function(module, exports) {
 
-	module.exports = {"Modal":{"props":{"onHide":{"type":{"name":"func"},"required":false,"desc":"A callback fired when either the backdrop is clicked, or the escape key is pressed.","defaultValue":"noop","doclets":{},"descHtml":"<p>A callback fired when either the backdrop is clicked, or the escape key is pressed.</p>\n"},"backdrop":{"type":{"name":"union","value":[{"name":"bool"},{"name":"enum","value":["'static'"]}]},"required":false,"desc":"Include a backdrop component.","defaultValue":"true","doclets":{},"descHtml":"<p>Include a backdrop component.</p>\n"},"onEscapeKeyUp":{"type":{"name":"func"},"required":false,"desc":"A callback fired when the escape key, if specified in `keyboard`, is pressed.","doclets":{},"descHtml":"<p>A callback fired when the escape key, if specified in <code>keyboard</code>, is pressed.</p>\n"},"onBackdropClick":{"type":{"name":"func"},"required":false,"desc":"A callback fired when the backdrop, if specified, is clicked.","doclets":{},"descHtml":"<p>A callback fired when the backdrop, if specified, is clicked.</p>\n"},"backdropStyle":{"type":{"name":"object"},"required":false,"desc":"A style object for the backdrop component.","doclets":{},"descHtml":"<p>A style object for the backdrop component.</p>\n"},"backdropClassName":{"type":{"name":"string"},"required":false,"desc":"A css class or classes for the backdrop component.","doclets":{},"descHtml":"<p>A css class or classes for the backdrop component.</p>\n"},"containerClassName":{"type":{"name":"string"},"required":false,"desc":"A css class or set of classes applied to the modal container when the modal is open,\r\nand removed when it is closed.","doclets":{},"descHtml":"<p>A css class or set of classes applied to the modal container when the modal is open,\nand removed when it is closed.</p>\n"},"keyboard":{"type":{"name":"bool"},"required":false,"desc":"Close the modal when escape key is pressed","defaultValue":"true","doclets":{},"descHtml":"<p>Close the modal when escape key is pressed</p>\n"},"transition":{"type":{"name":"elementType"},"required":false,"desc":"A `<Transition/>` component to use for the dialog and backdrop components.","doclets":{},"descHtml":"<p>A <code>&lt;Transition/&gt;</code> component to use for the dialog and backdrop components.</p>\n"},"dialogTransitionTimeout":{"type":{"name":"requiredIf"},"required":false,"desc":"The `timeout` of the dialog transition if specified. This number is used to ensure that transition callbacks are always\r\nfired, even if browser transition events are canceled.\r\n\nSee the Transition `timeout` prop for more infomation.","doclets":{},"descHtml":"<p>The <code>timeout</code> of the dialog transition if specified. This number is used to ensure that transition callbacks are always\nfired, even if browser transition events are canceled.</p>\n<p>See the Transition <code>timeout</code> prop for more infomation.</p>\n"},"backdropTransitionTimeout":{"type":{"name":"requiredIf"},"required":false,"desc":"The `timeou` of the backdrop transition if specified. This number is used to ensure that transition callbacks are always\r\nfired, even if browser transition events are canceled.\r\n\nSee the Transition `timeout` prop for more infomation.","doclets":{},"descHtml":"<p>The <code>timeou</code> of the backdrop transition if specified. This number is used to ensure that transition callbacks are always\nfired, even if browser transition events are canceled.</p>\n<p>See the Transition <code>timeout</code> prop for more infomation.</p>\n"},"autoFocus":{"type":{"name":"bool"},"required":false,"desc":"When `true` The modal will automatically shift focus to itself when it opens, and replace it to the last focused element when it closes.\r\nGenerally this should never be set to false as it makes the Modal less accessible to assistive technologies, like screen readers.","defaultValue":"true","doclets":{},"descHtml":"<p>When <code>true</code> The modal will automatically shift focus to itself when it opens, and replace it to the last focused element when it closes.\nGenerally this should never be set to false as it makes the Modal less accessible to assistive technologies, like screen readers.</p>\n"},"enforceFocus":{"type":{"name":"bool"},"required":false,"desc":"When `true` The modal will prevent focus from leaving the Modal while open.\r\nGenerally this should never be set to false as it makes the Modal less accessible to assistive technologies, like screen readers.","defaultValue":"true","doclets":{},"descHtml":"<p>When <code>true</code> The modal will prevent focus from leaving the Modal while open.\nGenerally this should never be set to false as it makes the Modal less accessible to assistive technologies, like screen readers.</p>\n"},"show":{"defaultValue":"false","doclets":{},"desc":"","descHtml":""}},"composes":["Portal"],"desc":"Love them or hate them, `<Modal/>` provides a solid foundation for creating dialogs, lightboxs, or whatever else.\r\nThe Modal component renders its `children` node in front of a backdrop component.\r\n\nThe Modal offers a few help features over using just a`<Portal/>` and some styles:\r\n\n- Manages the backdrop for you.\r\n- It moves focuses to the modal content, keeps it there until the modal is closed.\r\n- It Disables scrolling from the page content while open.\r\n- Appropraite ARIA roles are automatically added.\r\n- Easily plugable animations via a `<Transition/>` component.","doclets":{},"descHtml":"<p>Love them or hate them, <code>&lt;Modal/&gt;</code> provides a solid foundation for creating dialogs, lightboxs, or whatever else.\nThe Modal component renders its <code>children</code> node in front of a backdrop component.</p>\n<p>The Modal offers a few help features over using just a<code>&lt;Portal/&gt;</code> and some styles:</p>\n<ul>\n<li>Manages the backdrop for you.</li>\n<li>It moves focuses to the modal content, keeps it there until the modal is closed.</li>\n<li>It Disables scrolling from the page content while open.</li>\n<li>Appropraite ARIA roles are automatically added.</li>\n<li>Easily plugable animations via a <code>&lt;Transition/&gt;</code> component.</li>\n</ul>\n"}}
+	module.exports = {"Modal":{"props":{"onShow":{"type":{"name":"func"},"required":false,"desc":"A callback fired when the Modal is opening.","doclets":{},"descHtml":"<p>A callback fired when the Modal is opening.</p>\n"},"onHide":{"type":{"name":"func"},"required":false,"desc":"A callback fired when either the backdrop is clicked, or the escape key is pressed.","defaultValue":"noop","doclets":{},"descHtml":"<p>A callback fired when either the backdrop is clicked, or the escape key is pressed.</p>\n"},"backdrop":{"type":{"name":"union","value":[{"name":"bool"},{"name":"enum","value":["'static'"]}]},"required":false,"desc":"Include a backdrop component.","defaultValue":"true","doclets":{},"descHtml":"<p>Include a backdrop component.</p>\n"},"onEscapeKeyUp":{"type":{"name":"func"},"required":false,"desc":"A callback fired when the escape key, if specified in `keyboard`, is pressed.","doclets":{},"descHtml":"<p>A callback fired when the escape key, if specified in <code>keyboard</code>, is pressed.</p>\n"},"onBackdropClick":{"type":{"name":"func"},"required":false,"desc":"A callback fired when the backdrop, if specified, is clicked.","doclets":{},"descHtml":"<p>A callback fired when the backdrop, if specified, is clicked.</p>\n"},"backdropStyle":{"type":{"name":"object"},"required":false,"desc":"A style object for the backdrop component.","doclets":{},"descHtml":"<p>A style object for the backdrop component.</p>\n"},"backdropClassName":{"type":{"name":"string"},"required":false,"desc":"A css class or classes for the backdrop component.","doclets":{},"descHtml":"<p>A css class or classes for the backdrop component.</p>\n"},"containerClassName":{"type":{"name":"string"},"required":false,"desc":"A css class or set of classes applied to the modal container when the modal is open,\r\nand removed when it is closed.","doclets":{},"descHtml":"<p>A css class or set of classes applied to the modal container when the modal is open,\nand removed when it is closed.</p>\n"},"keyboard":{"type":{"name":"bool"},"required":false,"desc":"Close the modal when escape key is pressed","defaultValue":"true","doclets":{},"descHtml":"<p>Close the modal when escape key is pressed</p>\n"},"transition":{"type":{"name":"elementType"},"required":false,"desc":"A `<Transition/>` component to use for the dialog and backdrop components.","doclets":{},"descHtml":"<p>A <code>&lt;Transition/&gt;</code> component to use for the dialog and backdrop components.</p>\n"},"dialogTransitionTimeout":{"type":{"name":"number"},"required":false,"desc":"The `timeout` of the dialog transition if specified. This number is used to ensure that transition callbacks are always\r\nfired, even if browser transition events are canceled.\r\n\nSee the Transition `timeout` prop for more infomation.","doclets":{},"descHtml":"<p>The <code>timeout</code> of the dialog transition if specified. This number is used to ensure that transition callbacks are always\nfired, even if browser transition events are canceled.</p>\n<p>See the Transition <code>timeout</code> prop for more infomation.</p>\n"},"backdropTransitionTimeout":{"type":{"name":"number"},"required":false,"desc":"The `timeout` of the backdrop transition if specified. This number is used to ensure that transition callbacks are always\r\nfired, even if browser transition events are canceled.\r\n\nSee the Transition `timeout` prop for more infomation.","doclets":{},"descHtml":"<p>The <code>timeout</code> of the backdrop transition if specified. This number is used to ensure that transition callbacks are always\nfired, even if browser transition events are canceled.</p>\n<p>See the Transition <code>timeout</code> prop for more infomation.</p>\n"},"autoFocus":{"type":{"name":"bool"},"required":false,"desc":"When `true` The modal will automatically shift focus to itself when it opens, and replace it to the last focused element when it closes.\r\nGenerally this should never be set to false as it makes the Modal less accessible to assistive technologies, like screen readers.","defaultValue":"true","doclets":{},"descHtml":"<p>When <code>true</code> The modal will automatically shift focus to itself when it opens, and replace it to the last focused element when it closes.\nGenerally this should never be set to false as it makes the Modal less accessible to assistive technologies, like screen readers.</p>\n"},"enforceFocus":{"type":{"name":"bool"},"required":false,"desc":"When `true` The modal will prevent focus from leaving the Modal while open.\r\nGenerally this should never be set to false as it makes the Modal less accessible to assistive technologies, like screen readers.","defaultValue":"true","doclets":{},"descHtml":"<p>When <code>true</code> The modal will prevent focus from leaving the Modal while open.\nGenerally this should never be set to false as it makes the Modal less accessible to assistive technologies, like screen readers.</p>\n"},"show":{"defaultValue":"false","doclets":{},"desc":"","descHtml":""}},"composes":["Portal"],"desc":"Love them or hate them, `<Modal/>` provides a solid foundation for creating dialogs, lightboxes, or whatever else.\r\nThe Modal component renders its `children` node in front of a backdrop component.\r\n\nThe Modal offers a few helpful features over using just a `<Portal/>` component and some styles:\r\n\n- Manages dialog stacking when one-at-a-time just isn't enough.\r\n- Creates a backdrop, for disabling interaction below the modal.\r\n- It properly manages focus; moving to the modal content, and keeping it there until the modal is closed.\r\n- It disables scrolling of the page content while open.\r\n- Adds the appropriate ARIA roles are automatically.\r\n- Easily pluggable animations via a `<Transition/>` component.","doclets":{},"descHtml":"<p>Love them or hate them, <code>&lt;Modal/&gt;</code> provides a solid foundation for creating dialogs, lightboxes, or whatever else.\nThe Modal component renders its <code>children</code> node in front of a backdrop component.</p>\n<p>The Modal offers a few helpful features over using just a <code>&lt;Portal/&gt;</code> component and some styles:</p>\n<ul>\n<li>Manages dialog stacking when one-at-a-time just isn&#39;t enough.</li>\n<li>Creates a backdrop, for disabling interaction below the modal.</li>\n<li>It properly manages focus; moving to the modal content, and keeping it there until the modal is closed.</li>\n<li>It disables scrolling of the page content while open.</li>\n<li>Adds the appropriate ARIA roles are automatically.</li>\n<li>Easily pluggable animations via a <code>&lt;Transition/&gt;</code> component.</li>\n</ul>\n"}}
 
 /***/ },
 /* 265 */
 /***/ function(module, exports) {
 
-	module.exports = {"Transition":{"props":{"in":{"type":{"name":"bool"},"required":false,"desc":"Show the component; triggers the enter or exit animation","defaultValue":"false","doclets":{},"descHtml":"<p>Show the component; triggers the enter or exit animation</p>\n"},"unmountOnExit":{"type":{"name":"bool"},"required":false,"desc":"Unmount the component (remove it from the DOM) when it is not shown","defaultValue":"false","doclets":{},"descHtml":"<p>Unmount the component (remove it from the DOM) when it is not shown</p>\n"},"transitionAppear":{"type":{"name":"bool"},"required":false,"desc":"Run the enter animation when the component mounts, if it is initially\r\nshown","defaultValue":"false","doclets":{},"descHtml":"<p>Run the enter animation when the component mounts, if it is initially\nshown</p>\n"},"timeout":{"type":{"name":"number"},"required":true,"desc":"A Timeout for the animation, in milliseconds, to ensure that a node doesn't\r\ntransition indefinately if the browser transitionEnd events are\r\ncanceled or interrupted.","doclets":{},"descHtml":"<p>A Timeout for the animation, in milliseconds, to ensure that a node doesn&#39;t\ntransition indefinately if the browser transitionEnd events are\ncanceled or interrupted.</p>\n"},"exitedClassName":{"type":{"name":"string"},"required":false,"desc":"CSS class or classes applied when the component is exited","doclets":{},"descHtml":"<p>CSS class or classes applied when the component is exited</p>\n"},"exitingClassName":{"type":{"name":"string"},"required":false,"desc":"CSS class or classes applied while the component is exiting","doclets":{},"descHtml":"<p>CSS class or classes applied while the component is exiting</p>\n"},"enteredClassName":{"type":{"name":"string"},"required":false,"desc":"CSS class or classes applied when the component is entered","doclets":{},"descHtml":"<p>CSS class or classes applied when the component is entered</p>\n"},"enteringClassName":{"type":{"name":"string"},"required":false,"desc":"CSS class or classes applied while the component is entering","doclets":{},"descHtml":"<p>CSS class or classes applied while the component is entering</p>\n"},"onEnter":{"type":{"name":"func"},"required":false,"desc":"Callback fired before the \"entering\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired before the &quot;entering&quot; classes are applied</p>\n"},"onEntering":{"type":{"name":"func"},"required":false,"desc":"Callback fired after the \"entering\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired after the &quot;entering&quot; classes are applied</p>\n"},"onEntered":{"type":{"name":"func"},"required":false,"desc":"Callback fired after the \"enter\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired after the &quot;enter&quot; classes are applied</p>\n"},"onExit":{"type":{"name":"func"},"required":false,"desc":"Callback fired before the \"exiting\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired before the &quot;exiting&quot; classes are applied</p>\n"},"onExiting":{"type":{"name":"func"},"required":false,"desc":"Callback fired after the \"exiting\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired after the &quot;exiting&quot; classes are applied</p>\n"},"onExited":{"type":{"name":"func"},"required":false,"desc":"Callback fired after the \"exited\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired after the &quot;exited&quot; classes are applied</p>\n"}},"composes":[],"desc":"The Transition component lets you define and run css transitions with a simple declarative api.\r\nIt works similar to React's own [CSSTransitionGroup](http://facebook.github.io/react/docs/animation.html#high-level-api-reactcsstransitiongroup)\r\nbut is specifically optimized for transitioning a single child \"in\" or \"out\".\r\n\nYou don't even need to use class based css transitions if you don't want to (but it is easiest).\r\nThe extensive set of lifecyle callbacks means you have control over\r\nthe transitioning now at each step of the way.","doclets":{},"descHtml":"<p>The Transition component lets you define and run css transitions with a simple declarative api.\nIt works similar to React&#39;s own <a href=\"http://facebook.github.io/react/docs/animation.html#high-level-api-reactcsstransitiongroup\">CSSTransitionGroup</a>\nbut is specifically optimized for transitioning a single child &quot;in&quot; or &quot;out&quot;.</p>\n<p>You don&#39;t even need to use class based css transitions if you don&#39;t want to (but it is easiest).\nThe extensive set of lifecyle callbacks means you have control over\nthe transitioning now at each step of the way.</p>\n"}}
+	module.exports = {"Transition":{"props":{"in":{"type":{"name":"bool"},"required":false,"desc":"Show the component; triggers the enter or exit animation","defaultValue":"false","doclets":{},"descHtml":"<p>Show the component; triggers the enter or exit animation</p>\n"},"unmountOnExit":{"type":{"name":"bool"},"required":false,"desc":"Unmount the component (remove it from the DOM) when it is not shown","defaultValue":"false","doclets":{},"descHtml":"<p>Unmount the component (remove it from the DOM) when it is not shown</p>\n"},"transitionAppear":{"type":{"name":"bool"},"required":false,"desc":"Run the enter animation when the component mounts, if it is initially\r\nshown","defaultValue":"false","doclets":{},"descHtml":"<p>Run the enter animation when the component mounts, if it is initially\nshown</p>\n"},"timeout":{"type":{"name":"number"},"required":false,"desc":"A Timeout for the animation, in milliseconds, to ensure that a node doesn't\r\ntransition indefinately if the browser transitionEnd events are\r\ncanceled or interrupted.\r\n\nBy default this is set to a high number (5 seconds) as a failsafe. You should consider\r\nsetting this to the duration of your animation (or a bit above it).","defaultValue":"5000","doclets":{},"descHtml":"<p>A Timeout for the animation, in milliseconds, to ensure that a node doesn&#39;t\ntransition indefinately if the browser transitionEnd events are\ncanceled or interrupted.</p>\n<p>By default this is set to a high number (5 seconds) as a failsafe. You should consider\nsetting this to the duration of your animation (or a bit above it).</p>\n"},"exitedClassName":{"type":{"name":"string"},"required":false,"desc":"CSS class or classes applied when the component is exited","doclets":{},"descHtml":"<p>CSS class or classes applied when the component is exited</p>\n"},"exitingClassName":{"type":{"name":"string"},"required":false,"desc":"CSS class or classes applied while the component is exiting","doclets":{},"descHtml":"<p>CSS class or classes applied while the component is exiting</p>\n"},"enteredClassName":{"type":{"name":"string"},"required":false,"desc":"CSS class or classes applied when the component is entered","doclets":{},"descHtml":"<p>CSS class or classes applied when the component is entered</p>\n"},"enteringClassName":{"type":{"name":"string"},"required":false,"desc":"CSS class or classes applied while the component is entering","doclets":{},"descHtml":"<p>CSS class or classes applied while the component is entering</p>\n"},"onEnter":{"type":{"name":"func"},"required":false,"desc":"Callback fired before the \"entering\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired before the &quot;entering&quot; classes are applied</p>\n"},"onEntering":{"type":{"name":"func"},"required":false,"desc":"Callback fired after the \"entering\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired after the &quot;entering&quot; classes are applied</p>\n"},"onEntered":{"type":{"name":"func"},"required":false,"desc":"Callback fired after the \"enter\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired after the &quot;enter&quot; classes are applied</p>\n"},"onExit":{"type":{"name":"func"},"required":false,"desc":"Callback fired before the \"exiting\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired before the &quot;exiting&quot; classes are applied</p>\n"},"onExiting":{"type":{"name":"func"},"required":false,"desc":"Callback fired after the \"exiting\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired after the &quot;exiting&quot; classes are applied</p>\n"},"onExited":{"type":{"name":"func"},"required":false,"desc":"Callback fired after the \"exited\" classes are applied","defaultValue":"noop","doclets":{},"descHtml":"<p>Callback fired after the &quot;exited&quot; classes are applied</p>\n"}},"composes":[],"desc":"The Transition component lets you define and run css transitions with a simple declarative api.\r\nIt works similar to React's own [CSSTransitionGroup](http://facebook.github.io/react/docs/animation.html#high-level-api-reactcsstransitiongroup)\r\nbut is specifically optimized for transitioning a single child \"in\" or \"out\".\r\n\nYou don't even need to use class based css transitions if you don't want to (but it is easiest).\r\nThe extensive set of lifecyle callbacks means you have control over\r\nthe transitioning now at each step of the way.","doclets":{},"descHtml":"<p>The Transition component lets you define and run css transitions with a simple declarative api.\nIt works similar to React&#39;s own <a href=\"http://facebook.github.io/react/docs/animation.html#high-level-api-reactcsstransitiongroup\">CSSTransitionGroup</a>\nbut is specifically optimized for transitioning a single child &quot;in&quot; or &quot;out&quot;.</p>\n<p>You don&#39;t even need to use class based css transitions if you don&#39;t want to (but it is easiest).\nThe extensive set of lifecyle callbacks means you have control over\nthe transitioning now at each step of the way.</p>\n"}}
 
 /***/ },
 /* 266 */
@@ -97270,25 +97327,25 @@
 
 	exports.Modal = _Modal3['default'];
 
-	var _Overlay2 = __webpack_require__(296);
+	var _Overlay2 = __webpack_require__(295);
 
 	var _Overlay3 = _interopRequireDefault(_Overlay2);
 
 	exports.Overlay = _Overlay3['default'];
 
-	var _Portal2 = __webpack_require__(280);
+	var _Portal2 = __webpack_require__(270);
 
 	var _Portal3 = _interopRequireDefault(_Portal2);
 
 	exports.Portal = _Portal3['default'];
 
-	var _Position2 = __webpack_require__(297);
+	var _Position2 = __webpack_require__(296);
 
 	var _Position3 = _interopRequireDefault(_Position2);
 
 	exports.Position = _Position3['default'];
 
-	var _Transition2 = __webpack_require__(305);
+	var _Transition2 = __webpack_require__(304);
 
 	var _Transition3 = _interopRequireDefault(_Transition2);
 
@@ -97313,49 +97370,33 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactLibInvariant = __webpack_require__(7);
-
-	var _reactLibInvariant2 = _interopRequireDefault(_reactLibInvariant);
-
 	var _reactPropTypesLibElementType = __webpack_require__(268);
 
 	var _reactPropTypesLibElementType2 = _interopRequireDefault(_reactPropTypesLibElementType);
 
-	var _utilsRequiredIf = __webpack_require__(270);
-
-	var _utilsRequiredIf2 = _interopRequireDefault(_utilsRequiredIf);
-
-	var _utilsOwnerDocument = __webpack_require__(271);
-
-	var _utilsOwnerDocument2 = _interopRequireDefault(_utilsOwnerDocument);
-
-	var _utilsOwnerWindow = __webpack_require__(273);
-
-	var _utilsOwnerWindow2 = _interopRequireDefault(_utilsOwnerWindow);
-
-	var _utilsAddEventListener = __webpack_require__(276);
-
-	var _utilsAddEventListener2 = _interopRequireDefault(_utilsAddEventListener);
-
-	var _Portal = __webpack_require__(280);
+	var _Portal = __webpack_require__(270);
 
 	var _Portal2 = _interopRequireDefault(_Portal);
 
-	var _domHelpersStyle = __webpack_require__(283);
+	var _ModalManager = __webpack_require__(275);
 
-	var _domHelpersStyle2 = _interopRequireDefault(_domHelpersStyle);
+	var _ModalManager2 = _interopRequireDefault(_ModalManager);
 
-	var _domHelpersClass = __webpack_require__(288);
+	var _utilsOwnerDocument = __webpack_require__(272);
 
-	var _domHelpersClass2 = _interopRequireDefault(_domHelpersClass);
+	var _utilsOwnerDocument2 = _interopRequireDefault(_utilsOwnerDocument);
 
-	var _domHelpersUtilInDOM = __webpack_require__(278);
+	var _utilsAddEventListener = __webpack_require__(289);
+
+	var _utilsAddEventListener2 = _interopRequireDefault(_utilsAddEventListener);
+
+	var _utilsAddFocusListener = __webpack_require__(292);
+
+	var _utilsAddFocusListener2 = _interopRequireDefault(_utilsAddFocusListener);
+
+	var _domHelpersUtilInDOM = __webpack_require__(287);
 
 	var _domHelpersUtilInDOM2 = _interopRequireDefault(_domHelpersUtilInDOM);
-
-	var _domHelpersQueryIsWindow = __webpack_require__(292);
-
-	var _domHelpersQueryIsWindow2 = _interopRequireDefault(_domHelpersQueryIsWindow);
 
 	var _domHelpersActiveElement = __webpack_require__(293);
 
@@ -97365,82 +97406,35 @@
 
 	var _domHelpersQueryContains2 = _interopRequireDefault(_domHelpersQueryContains);
 
-	var _domHelpersUtilScrollbarSize = __webpack_require__(295);
+	var _utilsGetContainer = __webpack_require__(274);
+
+	var _utilsGetContainer2 = _interopRequireDefault(_utilsGetContainer);
+
+	var modalManager = new _ModalManager2['default']();
 
 	/**
-	 * Gets the correct clientHeight of the modal container
-	 * when the body/window/document you need to use the docElement clientHeight
-	 * @param  {HTMLElement} container
-	 * @param  {ReactElement|HTMLElement} context
-	 * @return {Number}
-	 */
-
-	var _domHelpersUtilScrollbarSize2 = _interopRequireDefault(_domHelpersUtilScrollbarSize);
-
-	function containerClientHeight(container, context) {
-	  var doc = _utilsOwnerDocument2['default'](container);
-
-	  return _domHelpersQueryIsWindow2['default'](container) ? doc.documentElement.clientHeight : container.clientHeight;
-	}
-
-	function getContainer(context) {
-	  return context.props.container && _react2['default'].findDOMNode(context.props.container) || _utilsOwnerDocument2['default'](context).body;
-	}
-
-	var currentFocusListener = undefined;
-
-	/**
-	 * Firefox doesn't have a focusin event so using capture is easiest way to get bubbling
-	 * IE8 can't do addEventListener, but does have onfocusin, so we use that in ie8
-	 *
-	 * We only allow one Listener at a time to avoid stack overflows
-	 */
-	function onFocus(context, handler) {
-	  var doc = _utilsOwnerDocument2['default'](context);
-	  var useFocusin = !doc.addEventListener;
-	  var remove = undefined;
-
-	  if (currentFocusListener) {
-	    currentFocusListener.remove();
-	  }
-
-	  if (useFocusin) {
-	    document.attachEvent('onfocusin', handler);
-	    remove = function () {
-	      return document.detachEvent('onfocusin', handler);
-	    };
-	  } else {
-	    document.addEventListener('focus', handler, true);
-	    remove = function () {
-	      return document.removeEventListener('focus', handler, true);
-	    };
-	  }
-
-	  currentFocusListener = { remove: remove };
-	  return currentFocusListener;
-	}
-
-	var usingTransition = function usingTransition(props) {
-	  return !!props.transition;
-	};
-
-	/**
-	 * Love them or hate them, `<Modal/>` provides a solid foundation for creating dialogs, lightboxs, or whatever else.
+	 * Love them or hate them, `<Modal/>` provides a solid foundation for creating dialogs, lightboxes, or whatever else.
 	 * The Modal component renders its `children` node in front of a backdrop component.
 	 *
-	 * The Modal offers a few help features over using just a`<Portal/>` and some styles:
+	 * The Modal offers a few helpful features over using just a `<Portal/>` component and some styles:
 	 *
-	 * - Manages the backdrop for you.
-	 * - It moves focuses to the modal content, keeps it there until the modal is closed.
-	 * - It Disables scrolling from the page content while open.
-	 * - Appropraite ARIA roles are automatically added.
-	 * - Easily plugable animations via a `<Transition/>` component.
+	 * - Manages dialog stacking when one-at-a-time just isn't enough.
+	 * - Creates a backdrop, for disabling interaction below the modal.
+	 * - It properly manages focus; moving to the modal content, and keeping it there until the modal is closed.
+	 * - It disables scrolling of the page content while open.
+	 * - Adds the appropriate ARIA roles are automatically.
+	 * - Easily pluggable animations via a `<Transition/>` component.
 	 *
 	 */
 	var Modal = _react2['default'].createClass({
 	  displayName: 'Modal',
 
 	  propTypes: _extends({}, _Portal2['default'].propTypes, {
+
+	    /**
+	     * A callback fired when the Modal is opening.
+	     */
+	    onShow: _react2['default'].PropTypes.func,
 
 	    /**
 	     * A callback fired when either the backdrop is clicked, or the escape key is pressed.
@@ -97494,15 +97488,15 @@
 	     *
 	     * See the Transition `timeout` prop for more infomation.
 	     */
-	    dialogTransitionTimeout: _utilsRequiredIf2['default'](_react2['default'].PropTypes.number, usingTransition),
+	    dialogTransitionTimeout: _react2['default'].PropTypes.number,
 
 	    /**
-	     * The `timeou` of the backdrop transition if specified. This number is used to ensure that transition callbacks are always
+	     * The `timeout` of the backdrop transition if specified. This number is used to ensure that transition callbacks are always
 	     * fired, even if browser transition events are canceled.
 	     *
 	     * See the Transition `timeout` prop for more infomation.
 	     */
-	    backdropTransitionTimeout: _utilsRequiredIf2['default'](_react2['default'].PropTypes.number, usingTransition),
+	    backdropTransitionTimeout: _react2['default'].PropTypes.number,
 
 	    /**
 	     * When `true` The modal will automatically shift focus to itself when it opens, and replace it to the last focused element when it closes.
@@ -97559,16 +97553,12 @@
 	      return null;
 	    }
 
-	    _reactLibInvariant2['default'](!dialog.ref || typeof dialog.ref === 'function', 'In order to use refs on the modal dialog component, you must use the function form instead of a string. \n\n' + 'for more info visit: https://facebook.github.io/react/docs/more-about-refs.html#the-ref-callback-attribute');
-
-	    var modal = _react.cloneElement(dialog, {
-	      role: dialog.props.role || 'document',
-	      modalIsOverflowing: this.state.modalIsOverflowing,
-	      containerIsOverflowing: this._containerIsOverflowing
-	    });
+	    if (dialog.props.role === undefined) {
+	      dialog = _react.cloneElement(dialog, { role: 'document' });
+	    }
 
 	    if (Transition) {
-	      modal = _react2['default'].createElement(
+	      dialog = _react2['default'].createElement(
 	        Transition,
 	        {
 	          transitionAppear: true,
@@ -97582,7 +97572,7 @@
 	          onEntering: onEntering,
 	          onEntered: onEntered
 	        },
-	        modal
+	        dialog
 	      );
 	    }
 
@@ -97599,7 +97589,7 @@
 	          className: props.className
 	        },
 	        backdrop && this.renderBackdrop(),
-	        modal
+	        dialog
 	      )
 	    );
 	  },
@@ -97668,69 +97658,26 @@
 	  },
 
 	  onShow: function onShow() {
-	    var _this = this;
-
-	    // layout below ordered to avoid layout thrashing (microptimization!)
 	    var doc = _utilsOwnerDocument2['default'](this);
-	    var win = _utilsOwnerWindow2['default'](this);
-	    var container = getContainer(this);
-	    var containerClassName = this.props.containerClassName;
-	    var containerStyle = {
-	      overflow: 'hidden'
-	    };
+	    var container = _utilsGetContainer2['default'](this.props.container, doc.body);
 
-	    this._containerReset = {
-	      overflow: _domHelpersStyle2['default'](container, 'overflow'),
-	      paddingRight: _domHelpersStyle2['default'](container, 'paddingRight')
-	    };
+	    modalManager.add(this, container, this.props.containerClassName);
 
-	    this._containerIsOverflowing = container.scrollHeight > containerClientHeight(container, this);
-
-	    if (this._containerIsOverflowing) {
-	      var containerPadding = this._containerReset.containerPadding;
-
-	      containerStyle.paddingRight = parseInt(containerPadding || 0, 10) + _domHelpersUtilScrollbarSize2['default']() + 'px';
-	    }
-
-	    _domHelpersStyle2['default'](container, containerStyle);
-
-	    if (containerClassName) {
-	      this._containerClasses = containerClassName.split(/\s+/);
-	      this._containerClasses.forEach(_domHelpersClass2['default'].addClass.bind(null, container));
-	    }
-
-	    if (this.props.backdrop) {
-	      this.iosClickHack();
-	    }
+	    this.iosClickHack();
 
 	    this._onDocumentKeyupListener = _utilsAddEventListener2['default'](doc, 'keyup', this.handleDocumentKeyUp);
 
-	    this._onWindowResizeListener = _utilsAddEventListener2['default'](win, 'resize', this.handleWindowResize);
+	    this._onFocusinListener = _utilsAddFocusListener2['default'](this.enforceFocus);
 
-	    if (this.props.enforceFocus) {
-	      this._onFocusinListener = onFocus(this, this.enforceFocus);
-	    }
-
-	    this.setState({ //eslint-disable-line react/no-did-mount-set-state
-	      modalIsOverflowing: this.isModalOverflowing()
-	    }, function () {
-	      return _this.focusModalContent();
-	    });
+	    this.focus();
 	  },
 
 	  onHide: function onHide() {
-	    var container = getContainer(this);
-
-	    _domHelpersStyle2['default'](container, this._containerReset);
-
-	    (this._containerClasses || []).forEach(_domHelpersClass2['default'].removeClass.bind(null, container));
+	    modalManager.remove(this);
 
 	    this._onDocumentKeyupListener.remove();
-	    this._onWindowResizeListener.remove();
 
-	    if (this._onFocusinListener) {
-	      this._onFocusinListener.remove();
-	    }
+	    this._onFocusinListener.remove();
 
 	    this.restoreLastFocus();
 	  },
@@ -97761,18 +97708,12 @@
 	  },
 
 	  handleDocumentKeyUp: function handleDocumentKeyUp(e) {
-	    if (this.props.keyboard && e.keyCode === 27) {
+	    if (this.props.keyboard && e.keyCode === 27 && this.isTopModal()) {
 	      if (this.props.onEscapeKeyUp) {
 	        this.props.onEscapeKeyUp(e);
 	      }
 	      this.props.onHide();
 	    }
-	  },
-
-	  handleWindowResize: function handleWindowResize() {
-	    this.setState({
-	      modalIsOverflowing: this.isModalOverflowing()
-	    });
 	  },
 
 	  checkForFocus: function checkForFocus() {
@@ -97781,23 +97722,20 @@
 	    }
 	  },
 
-	  focusModalContent: function focusModalContent() {
+	  focus: function focus() {
 	    var autoFocus = this.props.autoFocus;
 	    var modalContent = _react2['default'].findDOMNode(this.refs.modal);
 	    var current = _domHelpersActiveElement2['default'](_utilsOwnerDocument2['default'](this));
 	    var focusInModal = current && _domHelpersQueryContains2['default'](modalContent, current);
 
 	    if (modalContent && autoFocus && !focusInModal) {
-	      // if ( process.env.NODE_ENV !== 'production') {
-	      //   invariant(modalContent.tabIndex != null,
-	      //     'The Modal `autoFocus` prop is `true` however the provided dialog component')
-	      // }
 	      this.lastFocus = current;
 	      modalContent.focus();
 	    }
 	  },
 
 	  restoreLastFocus: function restoreLastFocus() {
+	    // Support: <=IE11 doesn't support `focus()` on svg elements (RB: #917)
 	    if (this.lastFocus && this.lastFocus.focus) {
 	      this.lastFocus.focus();
 	      this.lastFocus = null;
@@ -97805,12 +97743,14 @@
 	  },
 
 	  enforceFocus: function enforceFocus() {
-	    if (!this.isMounted()) {
+	    var enforceFocus = this.props.enforceFocus;
+
+	    if (!enforceFocus || !this.isMounted() || !this.isTopModal()) {
 	      return;
 	    }
 
 	    var active = _domHelpersActiveElement2['default'](_utilsOwnerDocument2['default'](this));
-	    var modal = this.getDialogElement();
+	    var modal = _react2['default'].findDOMNode(this.refs.modal);
 
 	    if (modal && modal !== active && !_domHelpersQueryContains2['default'](modal, active)) {
 	      modal.focus();
@@ -97818,8 +97758,10 @@
 	  },
 
 	  iosClickHack: function iosClickHack() {
-	    // https://github.com/facebook/react/issues/1169
-	    _react2['default'].findDOMNode(this.refs.backdrop).onclick = function () {};
+	    // Support: <= React 0.13: https://github.com/facebook/react/issues/1169
+	    if (this.refs.backdrop) {
+	      _react2['default'].findDOMNode(this.refs.backdrop).onclick = function () {};
+	    }
 	  },
 
 	  //instead of a ref, which might conflict with one the parent applied.
@@ -97828,19 +97770,13 @@
 	    return node && node.lastChild;
 	  },
 
-	  isModalOverflowing: function isModalOverflowing() {
-	    if (!_domHelpersUtilInDOM2['default']) {
-	      return false;
-	    }
-
-	    var node = this.getDialogElement();
-	    var scrollHt = node.scrollHeight;
-	    var container = getContainer(this);
-
-	    return scrollHt > containerClientHeight(container, this);
+	  isTopModal: function isTopModal() {
+	    return modalManager.isTopModal(this);
 	  }
 
 	});
+
+	Modal.manager = modalManager;
 
 	exports['default'] = Modal;
 	module.exports = exports['default'];
@@ -97932,29 +97868,6 @@
 
 /***/ },
 /* 270 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	exports.__esModule = true;
-	exports["default"] = requiredIf;
-
-	function requiredIf(propType, matcher) {
-	  return function () {
-	    var pt = propType;
-
-	    if (matcher.apply(undefined, arguments)) {
-	      pt = pt.isRequired;
-	    }
-
-	    return pt.apply(undefined, arguments);
-	  };
-	}
-
-	module.exports = exports["default"];
-
-/***/ },
-/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -97967,215 +97880,15 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _domHelpersOwnerDocument = __webpack_require__(272);
-
-	var _domHelpersOwnerDocument2 = _interopRequireDefault(_domHelpersOwnerDocument);
-
-	exports['default'] = function (componentOrElement) {
-	  return _domHelpersOwnerDocument2['default'](_react2['default'].findDOMNode(componentOrElement));
-	};
-
-	module.exports = exports['default'];
-
-/***/ },
-/* 272 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	exports.__esModule = true;
-	exports["default"] = ownerDocument;
-
-	function ownerDocument(node) {
-	  return node && node.ownerDocument || document;
-	}
-
-	module.exports = exports["default"];
-
-/***/ },
-/* 273 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	exports.__esModule = true;
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var _react = __webpack_require__(2);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _domHelpersOwnerWindow = __webpack_require__(274);
-
-	var _domHelpersOwnerWindow2 = _interopRequireDefault(_domHelpersOwnerWindow);
-
-	exports['default'] = function (componentOrElement) {
-	  return _domHelpersOwnerWindow2['default'](_react2['default'].findDOMNode(componentOrElement));
-	};
-
-	module.exports = exports['default'];
-
-/***/ },
-/* 274 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var babelHelpers = __webpack_require__(275);
-
-	exports.__esModule = true;
-	exports['default'] = ownerWindow;
-
-	var _ownerDocument = __webpack_require__(272);
-
-	var _ownerDocument2 = babelHelpers.interopRequireDefault(_ownerDocument);
-
-	function ownerWindow(node) {
-	  var doc = (0, _ownerDocument2['default'])(node);
-	  return doc && doc.defaultView || doc.parentWindow;
-	}
-
-	module.exports = exports['default'];
-
-/***/ },
-/* 275 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (root, factory) {
-	  if (true) {
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if (typeof exports === "object") {
-	    factory(exports);
-	  } else {
-	    factory(root.babelHelpers = {});
-	  }
-	})(this, function (global) {
-	  var babelHelpers = global;
-
-	  babelHelpers.interopRequireDefault = function (obj) {
-	    return obj && obj.__esModule ? obj : {
-	      "default": obj
-	    };
-	  };
-
-	  babelHelpers._extends = Object.assign || function (target) {
-	    for (var i = 1; i < arguments.length; i++) {
-	      var source = arguments[i];
-
-	      for (var key in source) {
-	        if (Object.prototype.hasOwnProperty.call(source, key)) {
-	          target[key] = source[key];
-	        }
-	      }
-	    }
-
-	    return target;
-	  };
-	})
-
-/***/ },
-/* 276 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	exports.__esModule = true;
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var _domHelpersEventsOn = __webpack_require__(277);
-
-	var _domHelpersEventsOn2 = _interopRequireDefault(_domHelpersEventsOn);
-
-	var _domHelpersEventsOff = __webpack_require__(279);
-
-	var _domHelpersEventsOff2 = _interopRequireDefault(_domHelpersEventsOff);
-
-	exports['default'] = function (node, event, handler) {
-	  _domHelpersEventsOn2['default'](node, event, handler);
-	  return {
-	    remove: function remove() {
-	      _domHelpersEventsOff2['default'](node, event, handler);
-	    }
-	  };
-	};
-
-	module.exports = exports['default'];
-
-/***/ },
-/* 277 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	var canUseDOM = __webpack_require__(278);
-	var on = function on() {};
-
-	if (canUseDOM) {
-	  on = (function () {
-
-	    if (document.addEventListener) return function (node, eventName, handler, capture) {
-	      return node.addEventListener(eventName, handler, capture || false);
-	    };else if (document.attachEvent) return function (node, eventName, handler) {
-	      return node.attachEvent('on' + eventName, handler);
-	    };
-	  })();
-	}
-
-	module.exports = on;
-
-/***/ },
-/* 278 */
-/***/ function(module, exports) {
-
-	'use strict';
-	module.exports = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
-
-/***/ },
-/* 279 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	var canUseDOM = __webpack_require__(278);
-	var off = function off() {};
-
-	if (canUseDOM) {
-
-	  off = (function () {
-
-	    if (document.addEventListener) return function (node, eventName, handler, capture) {
-	      return node.removeEventListener(eventName, handler, capture || false);
-	    };else if (document.attachEvent) return function (node, eventName, handler) {
-	      return node.detachEvent('on' + eventName, handler);
-	    };
-	  })();
-	}
-
-	module.exports = off;
-
-/***/ },
-/* 280 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	exports.__esModule = true;
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var _react = __webpack_require__(2);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactPropTypesLibMountable = __webpack_require__(281);
+	var _reactPropTypesLibMountable = __webpack_require__(271);
 
 	var _reactPropTypesLibMountable2 = _interopRequireDefault(_reactPropTypesLibMountable);
 
-	var _utilsOwnerDocument = __webpack_require__(271);
+	var _utilsOwnerDocument = __webpack_require__(272);
 
 	var _utilsOwnerDocument2 = _interopRequireDefault(_utilsOwnerDocument);
 
-	var _utilsGetContainer = __webpack_require__(282);
+	var _utilsGetContainer = __webpack_require__(274);
 
 	/**
 	 * The `<Portal/>` component renders its children into a new "subtree" outside of current component hierarchy.
@@ -98275,7 +97988,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 281 */
+/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -98307,7 +98020,46 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 282 */
+/* 272 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	exports.__esModule = true;
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _domHelpersOwnerDocument = __webpack_require__(273);
+
+	var _domHelpersOwnerDocument2 = _interopRequireDefault(_domHelpersOwnerDocument);
+
+	exports['default'] = function (componentOrElement) {
+	  return _domHelpersOwnerDocument2['default'](_react2['default'].findDOMNode(componentOrElement));
+	};
+
+	module.exports = exports['default'];
+
+/***/ },
+/* 273 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	exports.__esModule = true;
+	exports["default"] = ownerDocument;
+
+	function ownerDocument(node) {
+	  return node && node.ownerDocument || document;
+	}
+
+	module.exports = exports["default"];
+
+/***/ },
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -98329,15 +98081,187 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 283 */
+/* 275 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var camelize = __webpack_require__(284),
+	exports.__esModule = true;
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	var _domHelpersStyle = __webpack_require__(276);
+
+	var _domHelpersStyle2 = _interopRequireDefault(_domHelpersStyle);
+
+	var _domHelpersClass = __webpack_require__(282);
+
+	var _domHelpersClass2 = _interopRequireDefault(_domHelpersClass);
+
+	var _domHelpersUtilScrollbarSize = __webpack_require__(286);
+
+	var _domHelpersUtilScrollbarSize2 = _interopRequireDefault(_domHelpersUtilScrollbarSize);
+
+	var _domHelpersQueryIsWindow = __webpack_require__(288);
+
+	var _domHelpersQueryIsWindow2 = _interopRequireDefault(_domHelpersQueryIsWindow);
+
+	function containerClientHeight(container) {
+	  var win = _domHelpersQueryIsWindow2['default'](container);
+	  return win ? win.documentElement.clientHeight : container.clientHeight;
+	}
+
+	var findContainer = function findContainer(data, modal) {
+	  var idx = -1;
+	  data.some(function (d, i) {
+	    if (d.modals.indexOf(modal) !== -1) {
+	      idx = i;
+	      return true;
+	    }
+	  });
+	  return idx;
+	};
+
+	function remove(arr, item) {
+	  var i = arr.indexOf(item);
+	  if (i !== -1) {
+	    arr.splice(i, 0);
+	  }
+	}
+
+	/**
+	 * Proper state managment for containers and the modals in those containers.
+	 *
+	 * @internal Used by the Modal to ensure proper styling of containers.
+	 */
+
+	var ModalManager = (function () {
+	  function ModalManager() {
+	    _classCallCheck(this, ModalManager);
+
+	    this.modals = [];
+	    this.containers = [];
+	    this.data = [];
+
+	    this._listeners = [];
+	  }
+
+	  ModalManager.prototype.add = function add(modal, container, className) {
+	    var modalIdx = this.modals.indexOf(modal);
+	    var containerIdx = this.containers.indexOf(container);
+
+	    if (modalIdx !== -1) {
+	      return modalIdx;
+	    }
+
+	    modalIdx = this.modals.length;
+	    this.modals.push(modal);
+
+	    if (containerIdx !== -1) {
+	      this.data[containerIdx].modals.push(modal);
+	      return modalIdx;
+	    }
+
+	    var data = {
+	      modals: [modal],
+	      //right now only the first modal of a container will have its classes applied
+	      classes: className ? className.split(/\s+/) : [],
+	      //we are only interested in the actual `style` here becasue we will override it
+	      style: {
+	        overflow: container.style.overflow,
+	        paddingRight: container.style.paddingRight
+	      }
+	    };
+
+	    var style = {
+	      overflow: 'hidden'
+	    };
+
+	    data.overflowing = container.scrollHeight > containerClientHeight(container);
+
+	    if (data.overflowing) {
+	      // use computed style, here to get the real padding
+	      // to add our scrollbar width
+	      style.paddingRight = parseInt(_domHelpersStyle2['default'](container, 'paddingRight') || 0, 10) + _domHelpersUtilScrollbarSize2['default']() + 'px';
+	    }
+
+	    _domHelpersStyle2['default'](container, style);
+
+	    data.classes.forEach(_domHelpersClass2['default'].addClass.bind(null, container));
+
+	    this.containers.push(container);
+	    this.data.push(data);
+
+	    return modalIdx;
+	  };
+
+	  ModalManager.prototype.remove = function remove(modal) {
+	    var modalIdx = this.modals.indexOf(modal);
+
+	    if (modalIdx === -1) {
+	      return;
+	    }
+
+	    var containerIdx = findContainer(this.data, modal);
+	    var data = this.data[containerIdx];
+	    var container = this.containers[containerIdx];
+
+	    data.modals.splice(data.modals.indexOf(modal), 1);
+
+	    this.modals.splice(modalIdx, 1);
+
+	    //if that was the last modal in a container, clean it up.
+	    if (data.modals.length === 0) {
+	      Object.keys(data.style).forEach(function (key) {
+	        return container.style[key] = data.style[key];
+	      });
+
+	      data.classes.forEach(_domHelpersClass2['default'].removeClass.bind(null, container));
+
+	      this.containers.splice(containerIdx, 1);
+	      this.data.splice(containerIdx, 1);
+	    }
+	  };
+
+	  ModalManager.prototype.listen = function listen(handler) {
+	    var _this = this;
+
+	    this._listeners.push(handler);
+	    return function () {
+	      return remove(_this.listeners, handler);
+	    };
+	  };
+
+	  ModalManager.prototype._emit = function _emit(args) {
+	    var _this2 = this;
+
+	    this._listeners.forEach(function (l) {
+	      return l.apply(_this2, args);
+	    });
+	  };
+
+	  ModalManager.prototype.isTopModal = function isTopModal(modal) {
+	    return !!this.modals.length && this.modals[this.modals.length - 1] === modal;
+	  };
+
+	  return ModalManager;
+	})();
+
+	exports['default'] = ModalManager;
+	module.exports = exports['default'];
+
+/***/ },
+/* 276 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var camelize = __webpack_require__(277),
 	    hyphenate = __webpack_require__(219),
-	    _getComputedStyle = __webpack_require__(286),
-	    removeStyle = __webpack_require__(287);
+	    _getComputedStyle = __webpack_require__(279),
+	    removeStyle = __webpack_require__(281);
 
 	var has = Object.prototype.hasOwnProperty;
 
@@ -98346,7 +98270,8 @@
 	      props = property;
 
 	  if (typeof property === 'string') {
-	    if (value === undefined) return node.style[camelize(property)] || _getComputedStyle(node).getPropertyValue(property);else (props = {})[property] = value;
+
+	    if (value === undefined) return node.style[camelize(property)] || _getComputedStyle(node).getPropertyValue(hyphenate(property));else (props = {})[property] = value;
 	  }
 
 	  for (var key in props) if (has.call(props, key)) {
@@ -98357,7 +98282,7 @@
 	};
 
 /***/ },
-/* 284 */
+/* 277 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -98367,7 +98292,7 @@
 	 */
 
 	'use strict';
-	var camelize = __webpack_require__(285);
+	var camelize = __webpack_require__(278);
 	var msPattern = /^-ms-/;
 
 	module.exports = function camelizeStyleName(string) {
@@ -98375,7 +98300,7 @@
 	};
 
 /***/ },
-/* 285 */
+/* 278 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -98389,30 +98314,96 @@
 	};
 
 /***/ },
-/* 286 */
-/***/ function(module, exports) {
+/* 279 */
+/***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
+
+	var babelHelpers = __webpack_require__(280);
+
+	var _utilCamelizeStyle = __webpack_require__(277);
+
+	var _utilCamelizeStyle2 = babelHelpers.interopRequireDefault(_utilCamelizeStyle);
+
+	var rposition = /^(top|right|bottom|left)$/;
+	var rnumnonpx = /^([+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|))(?!px)[a-z%]+$/i;
 
 	module.exports = function _getComputedStyle(node) {
-	  if (!node) throw new TypeError("No Element passed to `getComputedStyle()`");
+	  if (!node) throw new TypeError('No Element passed to `getComputedStyle()`');
 	  var doc = node.ownerDocument;
 
-	  return "defaultView" in doc ? doc.defaultView.opener ? node.ownerDocument.defaultView.getComputedStyle(node, null) : window.getComputedStyle(node, null) : { //ie 8 "magic"
+	  return 'defaultView' in doc ? doc.defaultView.opener ? node.ownerDocument.defaultView.getComputedStyle(node, null) : window.getComputedStyle(node, null) : { //ie 8 "magic" from: https://github.com/jquery/jquery/blob/1.11-stable/src/css/curCSS.js#L72
 	    getPropertyValue: function getPropertyValue(prop) {
-	      var re = /(\-([a-z]){1})/g;
-	      if (prop == "float") prop = "styleFloat";
-	      if (re.test(prop)) prop = prop.replace(re, function () {
-	        return arguments[2].toUpperCase();
-	      });
+	      var style = node.style;
 
-	      return node.currentStyle[prop] || null;
+	      prop = (0, _utilCamelizeStyle2['default'])(prop);
+
+	      if (prop == 'float') prop = 'styleFloat';
+
+	      var current = node.currentStyle[prop] || null;
+
+	      if (current == null && style && style[prop]) current = style[prop];
+
+	      if (rnumnonpx.test(current) && !rposition.test(prop)) {
+	        // Remember the original values
+	        var left = style.left;
+	        var runStyle = node.runtimeStyle;
+	        var rsLeft = runStyle && runStyle.left;
+
+	        // Put in the new values to get a computed value out
+	        if (rsLeft) runStyle.left = node.currentStyle.left;
+
+	        style.left = prop === 'fontSize' ? '1em' : current;
+	        current = style.pixelLeft + 'px';
+
+	        // Revert the changed values
+	        style.left = left;
+	        if (rsLeft) runStyle.left = rsLeft;
+	      }
+
+	      return current;
 	    }
 	  };
 	};
 
 /***/ },
-/* 287 */
+/* 280 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (root, factory) {
+	  if (true) {
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if (typeof exports === "object") {
+	    factory(exports);
+	  } else {
+	    factory(root.babelHelpers = {});
+	  }
+	})(this, function (global) {
+	  var babelHelpers = global;
+
+	  babelHelpers.interopRequireDefault = function (obj) {
+	    return obj && obj.__esModule ? obj : {
+	      "default": obj
+	    };
+	  };
+
+	  babelHelpers._extends = Object.assign || function (target) {
+	    for (var i = 1; i < arguments.length; i++) {
+	      var source = arguments[i];
+
+	      for (var key in source) {
+	        if (Object.prototype.hasOwnProperty.call(source, key)) {
+	          target[key] = source[key];
+	        }
+	      }
+	    }
+
+	    return target;
+	  };
+	})
+
+/***/ },
+/* 281 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -98422,30 +98413,30 @@
 	};
 
 /***/ },
-/* 288 */
+/* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	module.exports = {
-	  addClass: __webpack_require__(289),
-	  removeClass: __webpack_require__(291),
-	  hasClass: __webpack_require__(290)
+	  addClass: __webpack_require__(283),
+	  removeClass: __webpack_require__(285),
+	  hasClass: __webpack_require__(284)
 	};
 
 /***/ },
-/* 289 */
+/* 283 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var hasClass = __webpack_require__(290);
+	var hasClass = __webpack_require__(284);
 
 	module.exports = function addClass(element, className) {
 	  if (element.classList) element.classList.add(className);else if (!hasClass(element)) element.className = element.className + ' ' + className;
 	};
 
 /***/ },
-/* 290 */
+/* 284 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -98454,7 +98445,7 @@
 	};
 
 /***/ },
-/* 291 */
+/* 285 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -98464,77 +98455,13 @@
 	};
 
 /***/ },
-/* 292 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	module.exports = function getWindow(node) {
-	  return node === node.window ? node : node.nodeType === 9 ? node.defaultView || node.parentWindow : false;
-	};
-
-/***/ },
-/* 293 */
+/* 286 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var babelHelpers = __webpack_require__(275);
-
-	exports.__esModule = true;
-
-	/**
-	 * document.activeElement
-	 */
-	exports['default'] = activeElement;
-
-	var _ownerDocument = __webpack_require__(272);
-
-	var _ownerDocument2 = babelHelpers.interopRequireDefault(_ownerDocument);
-
-	function activeElement() {
-	  var doc = arguments[0] === undefined ? document : arguments[0];
-
-	  try {
-	    return doc.activeElement;
-	  } catch (e) {}
-	}
-
-	module.exports = exports['default'];
-
-/***/ },
-/* 294 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	var canUseDOM = __webpack_require__(278);
-
-	var contains = (function () {
-	  var root = canUseDOM && document.documentElement;
-
-	  return root && root.contains ? function (context, node) {
-	    return context.contains(node);
-	  } : root && root.compareDocumentPosition ? function (context, node) {
-	    return context === node || !!(context.compareDocumentPosition(node) & 16);
-	  } : function (context, node) {
-	    if (node) do {
-	      if (node === context) return true;
-	    } while (node = node.parentNode);
-
-	    return false;
-	  };
-	})();
-
-	module.exports = contains;
-
-/***/ },
-/* 295 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var canUseDOM = __webpack_require__(278);
-	var style = __webpack_require__(283);
+	var canUseDOM = __webpack_require__(287);
+	var style = __webpack_require__(276);
 
 	var size;
 
@@ -98561,7 +98488,186 @@
 	};
 
 /***/ },
-/* 296 */
+/* 287 */
+/***/ function(module, exports) {
+
+	'use strict';
+	module.exports = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
+
+/***/ },
+/* 288 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	module.exports = function getWindow(node) {
+	  return node === node.window ? node : node.nodeType === 9 ? node.defaultView || node.parentWindow : false;
+	};
+
+/***/ },
+/* 289 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	exports.__esModule = true;
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var _domHelpersEventsOn = __webpack_require__(290);
+
+	var _domHelpersEventsOn2 = _interopRequireDefault(_domHelpersEventsOn);
+
+	var _domHelpersEventsOff = __webpack_require__(291);
+
+	var _domHelpersEventsOff2 = _interopRequireDefault(_domHelpersEventsOff);
+
+	exports['default'] = function (node, event, handler) {
+	  _domHelpersEventsOn2['default'](node, event, handler);
+	  return {
+	    remove: function remove() {
+	      _domHelpersEventsOff2['default'](node, event, handler);
+	    }
+	  };
+	};
+
+	module.exports = exports['default'];
+
+/***/ },
+/* 290 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	var canUseDOM = __webpack_require__(287);
+	var on = function on() {};
+
+	if (canUseDOM) {
+	  on = (function () {
+
+	    if (document.addEventListener) return function (node, eventName, handler, capture) {
+	      return node.addEventListener(eventName, handler, capture || false);
+	    };else if (document.attachEvent) return function (node, eventName, handler) {
+	      return node.attachEvent('on' + eventName, handler);
+	    };
+	  })();
+	}
+
+	module.exports = on;
+
+/***/ },
+/* 291 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	var canUseDOM = __webpack_require__(287);
+	var off = function off() {};
+
+	if (canUseDOM) {
+
+	  off = (function () {
+
+	    if (document.addEventListener) return function (node, eventName, handler, capture) {
+	      return node.removeEventListener(eventName, handler, capture || false);
+	    };else if (document.attachEvent) return function (node, eventName, handler) {
+	      return node.detachEvent('on' + eventName, handler);
+	    };
+	  })();
+	}
+
+	module.exports = off;
+
+/***/ },
+/* 292 */
+/***/ function(module, exports) {
+
+	/**
+	 * Firefox doesn't have a focusin event so using capture is easiest way to get bubbling
+	 * IE8 can't do addEventListener, but does have onfocusin, so we use that in ie8
+	 *
+	 * We only allow one Listener at a time to avoid stack overflows
+	 */
+	'use strict';
+
+	exports.__esModule = true;
+	exports['default'] = addFocusListener;
+
+	function addFocusListener(handler) {
+	  var useFocusin = !document.addEventListener;
+	  var remove = undefined;
+
+	  if (useFocusin) {
+	    document.attachEvent('onfocusin', handler);
+	    remove = function () {
+	      return document.detachEvent('onfocusin', handler);
+	    };
+	  } else {
+	    document.addEventListener('focus', handler, true);
+	    remove = function () {
+	      return document.removeEventListener('focus', handler, true);
+	    };
+	  }
+
+	  return { remove: remove };
+	}
+
+	module.exports = exports['default'];
+
+/***/ },
+/* 293 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var babelHelpers = __webpack_require__(280);
+
+	exports.__esModule = true;
+
+	/**
+	 * document.activeElement
+	 */
+	exports['default'] = activeElement;
+
+	var _ownerDocument = __webpack_require__(273);
+
+	var _ownerDocument2 = babelHelpers.interopRequireDefault(_ownerDocument);
+
+	function activeElement() {
+	  var doc = arguments[0] === undefined ? document : arguments[0];
+
+	  try {
+	    return doc.activeElement;
+	  } catch (e) {}
+	}
+
+	module.exports = exports['default'];
+
+/***/ },
+/* 294 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	var canUseDOM = __webpack_require__(287);
+
+	var contains = (function () {
+	  var root = canUseDOM && document.documentElement;
+
+	  return root && root.contains ? function (context, node) {
+	    return context.contains(node);
+	  } : root && root.compareDocumentPosition ? function (context, node) {
+	    return context === node || !!(context.compareDocumentPosition(node) & 16);
+	  } : function (context, node) {
+	    if (node) do {
+	      if (node === context) return true;
+	    } while (node = node.parentNode);
+
+	    return false;
+	  };
+	})();
+
+	module.exports = contains;
+
+/***/ },
+/* 295 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -98582,15 +98688,15 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Portal = __webpack_require__(280);
+	var _Portal = __webpack_require__(270);
 
 	var _Portal2 = _interopRequireDefault(_Portal);
 
-	var _Position = __webpack_require__(297);
+	var _Position = __webpack_require__(296);
 
 	var _Position2 = _interopRequireDefault(_Position);
 
-	var _RootCloseWrapper = __webpack_require__(304);
+	var _RootCloseWrapper = __webpack_require__(303);
 
 	var _RootCloseWrapper2 = _interopRequireDefault(_RootCloseWrapper);
 
@@ -98761,7 +98867,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 297 */
+/* 296 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -98786,17 +98892,17 @@
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
-	var _utilsOwnerDocument = __webpack_require__(271);
+	var _utilsOwnerDocument = __webpack_require__(272);
 
 	var _utilsOwnerDocument2 = _interopRequireDefault(_utilsOwnerDocument);
 
-	var _utilsGetContainer = __webpack_require__(282);
+	var _utilsGetContainer = __webpack_require__(274);
 
 	var _utilsGetContainer2 = _interopRequireDefault(_utilsGetContainer);
 
-	var _utilsOverlayPositionUtils = __webpack_require__(298);
+	var _utilsOverlayPositionUtils = __webpack_require__(297);
 
-	var _reactPropTypesLibMountable = __webpack_require__(281);
+	var _reactPropTypesLibMountable = __webpack_require__(271);
 
 	/**
 	 * The Position component calulates the corrdinates for its child, to
@@ -98937,6 +99043,8 @@
 	  placement: _react2['default'].PropTypes.oneOf(['top', 'right', 'bottom', 'left'])
 	};
 
+	Position.displayName = 'Position';
+
 	Position.defaultProps = {
 	  containerPadding: 0,
 	  placement: 'right'
@@ -98946,7 +99054,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 298 */
+/* 297 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -98955,19 +99063,19 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _ownerDocument = __webpack_require__(271);
+	var _ownerDocument = __webpack_require__(272);
 
 	var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
-	var _domHelpersQueryOffset = __webpack_require__(299);
+	var _domHelpersQueryOffset = __webpack_require__(298);
 
 	var _domHelpersQueryOffset2 = _interopRequireDefault(_domHelpersQueryOffset);
 
-	var _domHelpersQueryPosition = __webpack_require__(300);
+	var _domHelpersQueryPosition = __webpack_require__(299);
 
 	var _domHelpersQueryPosition2 = _interopRequireDefault(_domHelpersQueryPosition);
 
-	var _domHelpersQueryScrollTop = __webpack_require__(301);
+	var _domHelpersQueryScrollTop = __webpack_require__(300);
 
 	var _domHelpersQueryScrollTop2 = _interopRequireDefault(_domHelpersQueryScrollTop);
 
@@ -99085,13 +99193,13 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 299 */
+/* 298 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	var contains = __webpack_require__(294),
-	    getWindow = __webpack_require__(292),
-	    ownerDocument = __webpack_require__(272);
+	    getWindow = __webpack_require__(288),
+	    ownerDocument = __webpack_require__(273);
 
 	module.exports = function offset(node) {
 	  var doc = ownerDocument(node),
@@ -99120,33 +99228,33 @@
 	};
 
 /***/ },
-/* 300 */
+/* 299 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var babelHelpers = __webpack_require__(275);
+	var babelHelpers = __webpack_require__(280);
 
 	exports.__esModule = true;
 	exports['default'] = position;
 
-	var _offset = __webpack_require__(299);
+	var _offset = __webpack_require__(298);
 
 	var _offset2 = babelHelpers.interopRequireDefault(_offset);
 
-	var _offsetParent = __webpack_require__(302);
+	var _offsetParent = __webpack_require__(301);
 
 	var _offsetParent2 = babelHelpers.interopRequireDefault(_offsetParent);
 
-	var _scrollTop = __webpack_require__(301);
+	var _scrollTop = __webpack_require__(300);
 
 	var _scrollTop2 = babelHelpers.interopRequireDefault(_scrollTop);
 
-	var _scrollLeft = __webpack_require__(303);
+	var _scrollLeft = __webpack_require__(302);
 
 	var _scrollLeft2 = babelHelpers.interopRequireDefault(_scrollLeft);
 
-	var _style = __webpack_require__(283);
+	var _style = __webpack_require__(276);
 
 	var _style2 = babelHelpers.interopRequireDefault(_style);
 
@@ -99169,25 +99277,25 @@
 
 	    if (nodeName(offsetParent) !== 'html') parentOffset = (0, _offset2['default'])(offsetParent);
 
-	    parentOffset.top += (0, _style2['default'])(offsetParent, 'borderTopWidth') - (0, _scrollTop2['default'])(offsetParent) || 0;
-	    parentOffset.left += (0, _style2['default'])(offsetParent, 'borderLeftWidth') - (0, _scrollLeft2['default'])(offsetParent) || 0;
+	    parentOffset.top += parseInt((0, _style2['default'])(offsetParent, 'borderTopWidth'), 10) - (0, _scrollTop2['default'])(offsetParent) || 0;
+	    parentOffset.left += parseInt((0, _style2['default'])(offsetParent, 'borderLeftWidth'), 10) - (0, _scrollLeft2['default'])(offsetParent) || 0;
 	  }
 
 	  // Subtract parent offsets and node margins
 	  return babelHelpers._extends({}, offset, {
-	    top: offset.top - parentOffset.top - ((0, _style2['default'])(node, 'marginTop') || 0),
-	    left: offset.left - parentOffset.left - ((0, _style2['default'])(node, 'marginLeft') || 0)
+	    top: offset.top - parentOffset.top - (parseInt((0, _style2['default'])(node, 'marginTop'), 10) || 0),
+	    left: offset.left - parentOffset.left - (parseInt((0, _style2['default'])(node, 'marginLeft'), 10) || 0)
 	  });
 	}
 
 	module.exports = exports['default'];
 
 /***/ },
-/* 301 */
+/* 300 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var getWindow = __webpack_require__(292);
+	var getWindow = __webpack_require__(288);
 
 	module.exports = function scrollTop(node, val) {
 	  var win = getWindow(node);
@@ -99198,21 +99306,21 @@
 	};
 
 /***/ },
-/* 302 */
+/* 301 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var babelHelpers = __webpack_require__(275);
+	var babelHelpers = __webpack_require__(280);
 
 	exports.__esModule = true;
 	exports['default'] = offsetParent;
 
-	var _ownerDocument = __webpack_require__(272);
+	var _ownerDocument = __webpack_require__(273);
 
 	var _ownerDocument2 = babelHelpers.interopRequireDefault(_ownerDocument);
 
-	var _style = __webpack_require__(283);
+	var _style = __webpack_require__(276);
 
 	var _style2 = babelHelpers.interopRequireDefault(_style);
 
@@ -99234,11 +99342,11 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 303 */
+/* 302 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var getWindow = __webpack_require__(292);
+	var getWindow = __webpack_require__(288);
 
 	module.exports = function scrollTop(node, val) {
 	  var win = getWindow(node);
@@ -99249,7 +99357,7 @@
 	};
 
 /***/ },
-/* 304 */
+/* 303 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -99266,11 +99374,11 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _utilsOwnerDocument = __webpack_require__(271);
+	var _utilsOwnerDocument = __webpack_require__(272);
 
 	var _utilsOwnerDocument2 = _interopRequireDefault(_utilsOwnerDocument);
 
-	var _utilsAddEventListener = __webpack_require__(276);
+	var _utilsAddEventListener = __webpack_require__(289);
 
 	// TODO: Merge this logic with dropdown logic once #526 is done.
 
@@ -99363,13 +99471,15 @@
 
 	exports['default'] = RootCloseWrapper;
 
+	RootCloseWrapper.displayName = 'RootCloseWrapper';
+
 	RootCloseWrapper.propTypes = {
 	  onRootClose: _react2['default'].PropTypes.func.isRequired
 	};
 	module.exports = exports['default'];
 
 /***/ },
-/* 305 */
+/* 304 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -99390,11 +99500,11 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _domHelpersTransitionProperties = __webpack_require__(306);
+	var _domHelpersTransitionProperties = __webpack_require__(305);
 
 	var _domHelpersTransitionProperties2 = _interopRequireDefault(_domHelpersTransitionProperties);
 
-	var _domHelpersEventsOn = __webpack_require__(277);
+	var _domHelpersEventsOn = __webpack_require__(290);
 
 	var _domHelpersEventsOn2 = _interopRequireDefault(_domHelpersEventsOn);
 
@@ -99634,8 +99744,11 @@
 	   * A Timeout for the animation, in milliseconds, to ensure that a node doesn't
 	   * transition indefinately if the browser transitionEnd events are
 	   * canceled or interrupted.
+	   *
+	   * By default this is set to a high number (5 seconds) as a failsafe. You should consider
+	   * setting this to the duration of your animation (or a bit above it).
 	   */
-	  timeout: _react2['default'].PropTypes.number.isRequired,
+	  timeout: _react2['default'].PropTypes.number,
 
 	  /**
 	   * CSS class or classes applied when the component is exited
@@ -99683,10 +99796,14 @@
 	// Name the function so it is clearer in the documentation
 	function noop() {}
 
+	Transition.displayName = 'Transition';
+
 	Transition.defaultProps = {
 	  'in': false,
 	  unmountOnExit: false,
 	  transitionAppear: false,
+
+	  timeout: 5000,
 
 	  onEnter: noop,
 	  onEntering: noop,
@@ -99700,11 +99817,11 @@
 	exports['default'] = Transition;
 
 /***/ },
-/* 306 */
+/* 305 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var canUseDOM = __webpack_require__(278);
+	var canUseDOM = __webpack_require__(287);
 
 	var has = Object.prototype.hasOwnProperty,
 	    transform = 'transform',
@@ -99760,16 +99877,16 @@
 	}
 
 /***/ },
-/* 307 */
+/* 306 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(308);
+	var content = __webpack_require__(307);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(310)(content, {});
+	var update = __webpack_require__(309)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -99786,21 +99903,21 @@
 	}
 
 /***/ },
-/* 308 */
+/* 307 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(309)();
+	exports = module.exports = __webpack_require__(308)();
 	// imports
 
 
 	// module
-	exports.push([module.id, ".app {\n  font-family: \"Helvetica\";\n  max-width: 700px;\n  margin: 0 auto;\n  padding-top: 20px;\n}\npre {\n  border-radius: 0;\n  border: none;\n  border-left: 4px solid #ccc;\n}\ncode {\n  color: #555;\n  margin: -0.05rem -0.15em;\n  padding: .05rem .35em;\n  background-color: rgba(0, 0, 0, 0.04);\n}\n.playgroundStage,\n.cm-s-neo.CodeMirror {\n  background-color: #F4F4F4;\n  height: auto;\n  min-height: 75px;\n}\n.CodeMirror {\n  font-size: 12px;\n}\n.cm-s-neo div.CodeMirror-cursor {\n  border-left: 1px solid #9b9da2;\n}\n.cm-s-neo .CodeMirror-linenumber {\n  color: #ccc;\n}\n.cm-s-neo .cm-atom,\n.cm-s-neo .cm-number {\n  color: #905;\n}\n.prop-table {\n  font-size: 14 px;\n}\n.playgroundStage {\n  padding: 15px 0 15px 15px;\n}\n.playground.collapsableCode .playgroundCode {\n  height: 0;\n  overflow: hidden;\n}\n.playground.collapsableCode .playgroundCode.expandedCode {\n  height: auto;\n}\n.playgroundPreview {\n  position: relative;\n  padding: 40px 15px 15px 15px;\n}\n.playgroundPreview:before {\n  position: absolute;\n  top: 3px;\n  left: 7px;\n  color: #959595;\n  border-bottom: 1px solid  #eee;\n  padding: 0 3px;\n  content: 'Result';\n}\n.playground {\n  position: relative;\n  margin: 0;\n  margin-bottom: 20px;\n  border-top: 1px solid #ccc;\n}\n.playgroundCode,\n.playgroundPreview {\n  border-left: 1px solid #ccc;\n  border-right: 1px solid #ccc;\n}\n.playgroundToggleCodeBar {\n  padding: 1px;\n  border-top: 1px solid #ccc;\n}\n.playgroundToggleCodeLink {\n  color: #333;\n  background-color: #ccc;\n  margin-top: 1px;\n  margin-left: -1px;\n  border-bottom-left-radius: 3px;\n  border-bottom-right-radius: 3px;\n  padding: 3px 5px;\n}\n.playgroundToggleCodeLink:hover,\n.playgroundToggleCodeLink:focus {\n  color: black;\n}\n.anchor,\n.anchor:hover,\n.anchor:active,\n.anchor:focus {\n  color: black;\n  text-decoration: none;\n  position: relative;\n}\n.anchor-icon {\n  font-size: 90%;\n  padding-top: 0.1em;\n  position: absolute;\n  left: -0.8em;\n  opacity: 0;\n}\nh1:hover .anchor-icon,\nh1 a:focus .anchor-icon,\nh2:hover .anchor-icon,\nh2 a:focus .anchor-icon,\nh3:hover .anchor-icon,\nh3 a:focus .anchor-icon,\nh4:hover .anchor-icon,\nh4 a:focus .anchor-icon {\n  opacity: 0.5;\n}\n/** examples */\n.modal-example,\n.portal-example,\n.overlay-example {\n  text-align: center;\n}\n.overlay-example {\n  position: relative;\n  height: 120px;\n  padding-top: 30px;\n}\n.overlay-example p {\n  padding-top: 10px;\n}\n.portal-example button {\n  margin-bottom: 10px;\n}\n", ""]);
+	exports.push([module.id, ".app {\n  font-family: \"Helvetica\";\n  max-width: 900px;\n  margin: 0 auto;\n  padding-top: 0;\n}\n.side-panel ul {\n  position: fixed;\n  top: 40px;\n}\n.side-panel ul > li {\n  padding: 5px;\n}\npre {\n  border-radius: 0;\n  border: none;\n  border-left: 4px solid #ccc;\n}\ncode {\n  color: #555;\n  margin: -0.05rem -0.15em;\n  padding: .05rem .35em;\n  background-color: rgba(0, 0, 0, 0.04);\n}\n.playgroundStage,\n.cm-s-neo.CodeMirror {\n  background-color: #F4F4F4;\n  height: auto;\n  min-height: 75px;\n}\n.CodeMirror {\n  font-size: 12px;\n}\n.cm-s-neo div.CodeMirror-cursor {\n  border-left: 1px solid #9b9da2;\n}\n.cm-s-neo .CodeMirror-linenumber {\n  color: #ccc;\n}\n.cm-s-neo .cm-atom,\n.cm-s-neo .cm-number {\n  color: #905;\n}\n.prop-table {\n  font-size: 14 px;\n}\n.playgroundStage {\n  padding: 15px 0 15px 15px;\n}\n.playground.collapsableCode .playgroundCode {\n  height: 0;\n  overflow: hidden;\n}\n.playground.collapsableCode .playgroundCode.expandedCode {\n  height: auto;\n}\n.playgroundPreview {\n  position: relative;\n  padding: 40px 15px 15px 15px;\n}\n.playgroundPreview:before {\n  position: absolute;\n  top: 3px;\n  left: 7px;\n  color: #959595;\n  border-bottom: 1px solid  #eee;\n  padding: 0 3px;\n  content: 'Result';\n}\n.playground {\n  position: relative;\n  margin: 0;\n  margin-bottom: 20px;\n  border-top: 1px solid #ccc;\n}\n.playgroundCode,\n.playgroundPreview {\n  border-left: 1px solid #ccc;\n  border-right: 1px solid #ccc;\n}\n.playgroundToggleCodeBar {\n  padding: 1px;\n  border-top: 1px solid #ccc;\n}\n.playgroundToggleCodeLink {\n  color: #333;\n  background-color: #ccc;\n  margin-top: 1px;\n  margin-left: -1px;\n  border-bottom-left-radius: 3px;\n  border-bottom-right-radius: 3px;\n  padding: 3px 5px;\n}\n.playgroundToggleCodeLink:hover,\n.playgroundToggleCodeLink:focus {\n  color: black;\n}\n.anchor,\n.anchor:hover,\n.anchor:active,\n.anchor:focus {\n  color: black;\n  text-decoration: none;\n  position: relative;\n}\n.anchor-icon {\n  font-size: 90%;\n  padding-top: 0.1em;\n  position: absolute;\n  left: -0.8em;\n  opacity: 0;\n}\nh1:hover .anchor-icon,\nh1 a:focus .anchor-icon,\nh2:hover .anchor-icon,\nh2 a:focus .anchor-icon,\nh3:hover .anchor-icon,\nh3 a:focus .anchor-icon,\nh4:hover .anchor-icon,\nh4 a:focus .anchor-icon {\n  opacity: 0.5;\n}\n/** examples */\n.modal-example,\n.portal-example,\n.overlay-example {\n  text-align: center;\n}\n.overlay-example {\n  position: relative;\n  height: 120px;\n  padding-top: 30px;\n}\n.overlay-example p {\n  padding-top: 10px;\n}\n.portal-example button {\n  margin-bottom: 10px;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 309 */
+/* 308 */
 /***/ function(module, exports) {
 
 	/*
@@ -99856,7 +99973,7 @@
 
 
 /***/ },
-/* 310 */
+/* 309 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -100081,7 +100198,7 @@
 
 
 /***/ },
-/* 311 */
+/* 310 */
 /***/ function(module, exports) {
 
 	'use strict';
