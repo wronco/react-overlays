@@ -41,6 +41,7 @@ let Portal = React.createClass({
   _mountOverlayTarget() {
     if (!this._overlayTarget) {
       this._overlayTarget = document.createElement('div');
+      this._overlayTarget.className = "actionShots";
       this.getContainerDOMNode()
         .appendChild(this._overlayTarget);
     }
