@@ -1,6 +1,7 @@
 /*eslint-disable react/prop-types */
 import React, { cloneElement } from 'react';
 import warning from 'warning';
+import mountable from 'react-prop-types/lib/mountable';
 import elementType from 'react-prop-types/lib/elementType';
 
 import Portal from './Portal';
@@ -34,6 +35,17 @@ const Modal = React.createClass({
 
   propTypes: {
     ...Portal.propTypes,
+
+    /**
+     * A Node, Component instance, or function that returns either. The Modal is appended to it's container element.
+     *
+     * For the sake of assistive technologies, the container should usually be the document body, so that the rest of the
+     * page content can be placed behind a virtual backdrop as well as a visual one.
+     */
+    container: React.PropTypes.oneOfType([
+      mountable,
+      React.PropTypes.func
+    ]),
 
     /**
      * A callback fired when the Modal is opening.
@@ -149,6 +161,8 @@ const Modal = React.createClass({
     let show = !!props.show;
     let dialog = React.Children.only(this.props.children);
 
+    let setMountNode = ref => this.mountNode = (!ref || ref.getMountNode());
+
     const mountModal = show || (Transition && !this.state.exited);
 
     if (!mountModal) {
@@ -184,7 +198,10 @@ const Modal = React.createClass({
     }
 
     return (
-      <Portal container={props.container}>
+      <Portal
+        ref={setMountNode}
+        container={props.container}
+      >
         <div
           ref={'modal'}
           role={props.role || 'dialog'}
@@ -269,8 +286,6 @@ const Modal = React.createClass({
     let container = getContainer(this.props.container, doc.body);
 
     modalManager.add(this, container, this.props.containerClassName);
-
-    this.iosClickHack();
 
     this._onDocumentKeyupListener =
       addEventListener(doc, 'keyup', this.handleDocumentKeyUp);
@@ -372,16 +387,9 @@ const Modal = React.createClass({
     }
   },
 
-  iosClickHack() {
-    // Support: <= React 0.13: https://github.com/facebook/react/issues/1169
-    if (this.refs.backdrop) {
-      React.findDOMNode(this.refs.backdrop).onclick = function () {};
-    }
-  },
-
   //instead of a ref, which might conflict with one the parent applied.
   getDialogElement() {
-    let node = React.findDOMNode(this.refs.modal);
+    let node = this.refs.modal;
     return node && node.lastChild;
   },
 

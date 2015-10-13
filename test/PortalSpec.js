@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactTestUtils from 'react/lib/ReactTestUtils';
+import ReactDOM from 'react-dom';
+import ReactTestUtils from 'react-addons-test-utils';
 import Portal from '../src/Portal';
 
 describe('Portal', function () {
@@ -20,7 +21,7 @@ describe('Portal', function () {
 
   afterEach(function() {
     if (instance && ReactTestUtils.isCompositeComponent(instance) && instance.isMounted()) {
-      React.unmountComponentAtNode(React.findDOMNode(instance));
+      ReactDOM.unmountComponentAtNode(ReactDOM.findDOMNode(instance));
     }
   });
 
@@ -45,7 +46,7 @@ describe('Portal', function () {
       <Container />
     );
 
-    assert.equal(React.findDOMNode(instance).querySelectorAll('#test1').length, 1);
+    assert.equal(ReactDOM.findDOMNode(instance).querySelectorAll('#test1').length, 1);
   });
 
   it('Should not render a null overlay', function() {
